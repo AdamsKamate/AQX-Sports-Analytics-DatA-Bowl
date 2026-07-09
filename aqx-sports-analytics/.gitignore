@@ -1,0 +1,21 @@
+# 1. virtual environement
+venv/
+env/
+.env
+
+# 2. cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 3. Modèles de Machine Learning et Poids
+#*.pkl
+#src/model/weights/*.pkl
+
+# 5. Jupyter Notebooks
+.ipynb_checkpoints/
+
+# 6. file system (MacOS / Windows)
+.DS_Store
+Thumbs.db
